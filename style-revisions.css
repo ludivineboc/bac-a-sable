@@ -1,0 +1,135 @@
+* {
+    margin: 0; /* retirer toutes les marges externes */
+    padding: 0; /* retirer toutes les amrges internes */
+    box-sizing: border-box;  /* garder la mains sur la taille d'un element */
+}
+
+
+/* EXERCICE 1 */
+.texte-marron{
+    color: brown;
+}
+
+.texte-orange{
+    color: orange;
+}
+
+.fond-jaune{
+    background-color: yellow;
+}
+
+.texte-center{
+    text-align: center;
+}
+
+.padding-30 {
+    padding: 30px;
+}
+
+/* EXERCICE 2 */
+
+.btn {
+    text-decoration: none;/* retirer la ligne sous le texte */
+    padding: 10px 20px 10px 20px; /* 10px en haut et en bas, 20px a gauche et a droite DANS le btn */
+    color:white;/* texte blanc */
+    font-weight: 800;/* mettre le texte en gras */
+    display: inline-block; /* change son comportement pour qu'il devienne un inline block */
+    border-radius: 10px; /* arrondir les angles */
+}
+
+.fond-rouge{
+    background-color: red;
+}
+
+.fond-vert {
+    background-color: green;
+}
+
+.margin-bottom-20{
+    margin-bottom: 20px;
+}
+
+/* EXERCICE 3 */
+
+.card {
+ background-color: rgb(162, 162, 255);
+ padding: 30px;
+ width: 20%;
+
+}
+
+.texte-bleu {
+    color: blue;
+}
+
+
+/* EXERCICE 3 */
+
+.fond-bleu-clair{
+    background-color: rgb(168, 220, 251);
+}
+
+.texte-bleu-fonce{
+    color: blue;
+}
+
+.width-20{
+    width: 20%;
+}
+
+.border-radius-20{
+    border-radius: 20px;
+}
+
+
+
+.boites-enfant {
+  width:30%;
+  height:100px;
+  background:lightblue;
+}
+
+.boite-parente {
+display : flex; 
+justify-content:space-between;
+}
+
+
+
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.espace-entre{
+    justify-content: space-between;
+}
+
+.bg-gris{
+    background-color: gray;
+}
+
+.radius-10{
+    border-radius:10px ;
+}
+
+.width-28{
+    width: 28%;
+}
+
+.width-23{
+    width: 23%;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.container-1000 {
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+}

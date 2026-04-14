@@ -1,14 +1,18 @@
 /* import de la typo */
 
 
-/* RESET */
+/* ------------------------------
+            RESET
+ ---------------------------------*/
 *{
     margin: 0; /* pas de marges par défaut */
     padding: 0; /* pas de padding par défaut */
     box-sizing: border-box;  /* Ne change pas la taille de la boite si j'ajoute des paddings ou des broder. je garde le controle de ma boite.*/
 }
 
-/* TEXTE */
+/* ------------------------------
+            TEXTES
+ ---------------------------------*/
 
 .decoration-none {
     text-decoration: none; /* retirer la ligne sous le texte */
@@ -31,7 +35,9 @@
 }
 
 
-/* LARGEURS */
+/* ------------------------------
+            LARGEURS
+ ---------------------------------*/
 
 .w-100{
     width: 100%;
@@ -95,6 +101,8 @@
          MARGIN & PADDING 
  ---------------------------------*/
 
+ /* Margin */
+
 .mt-16 {
     margin-top: 16px;
 }
@@ -115,28 +123,61 @@
     margin-top: 128px;
 }
 
+.mb-128{
+    margin-bottom: 128px;
+}
+
+/* padding */
+
+
+.pb-16{
+    padding-bottom: 16px;
+}
+
 .pt-16{
     padding-top: 16px;
 }
 
-.pb-16{
+.pb-32{
     padding-bottom: 16px;
+}
+
+.pt-32{
+    padding-top: 32px;
+}
+
+.pb-32{
+    padding-bottom: 32px;
 }
 
 .pt-128{
     padding-top: 128px;
 }
 
-/* CONTAINER */
+.pb-128{
+    padding-bottom: 128px;
+}
+
+/* ------------------------------
+            CONTAINER
+ ---------------------------------*/
+
+.container-1000{
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 .container-1200{
     max-width: 1200px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
-.bg-green{
-    background-color: green;
-}
